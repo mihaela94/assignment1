@@ -1,0 +1,91 @@
+﻿body{
+    background-image: url(/images/spring_flowers.jpg);
+    background-attachment: fixed;
+    font-family: Georgia;
+}
+
+#header {
+    background-color: rgba(161,207,23,0.7);
+    color:black;
+    text-align:center;
+    padding:5px;
+    font-family: 'Playfair Display', serif;
+}
+
+#nav {
+    line-height:30px;
+    background-color:rgba(255,240,245,0.8);
+    width:15%; 
+    min-height:440px;
+    float:left;
+    padding:5px;
+    margin: 10px 0px 10px 0px;
+}
+
+#section {
+    width:81%;
+    min-height:440px;
+    float:left;
+    padding:10px;
+    padding-top:0px;
+    margin:10px 0px 10px 10px;
+    background-color: rgba(255,240,245,0.65);
+    /*opacity: 0.65;*/
+}
+
+#footer {
+    background-color: rgba(161,207,23,0.7);
+    color:black;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    font-family: 'Playfair Display', serif;
+}
+
+#picture{
+    float: left;
+    margin: 0px 10px 0px 10px;
+}
+
+#details{
+    float: left;
+    margin: 0px 10px 0px 10px;
+}
+
+th {
+    text-align: left;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+}
+
+#nav li{
+    padding-right:5px; 
+}
+
+#details li{
+    margin-top: 10px;
+}
+
+#nav ul{
+    padding-left:15px;
+    list-style-type: none;
+}
+
+a:visited{
+    color: rgba(255,89,150,1);
+}
+
+a{
+    color: rgba(161,207,23,1);
+}
+
+/*
+@font-face {
+  font-family: 'PlayfairDisplay';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/playfairdisplay/v10/2NBgzUtEeyB-Xtpr9bm1Cdhy5e3cTyNKTHXrP9DO-Rc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}*/
